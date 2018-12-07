@@ -1,0 +1,9 @@
+关于 pull request 的操作：
+$git remote add origin https://github.com/cccaaab/mapping.git
+若出错：fatal: remote origin already exists.
+则：$git remote rm origin 
+再：$git remote add origin https://github.com/cccaaab/mapping.git
+$git add . （.后面可以加具体的文件名，没有的话默认为全部，相同的文件会被覆盖）
+$git commit -m "注释信息"，其中“注释信息”是随便写的
+$git push --set-upstream origin master
+输入上条命令后，则会提示输入用户名和密码，按要求输入即可
